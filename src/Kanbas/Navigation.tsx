@@ -1,4 +1,4 @@
-import { AiOutlineDashboard } from "react-icons/ai";
+// import { AiOutlineDashboard } from "react-icons/ai";
 import { IoCalendarOutline } from "react-icons/io5";
 import { LiaBookSolid, LiaCogSolid } from "react-icons/lia";
 import { FaInbox, FaRegCircleUser } from "react-icons/fa6";
@@ -28,7 +28,7 @@ export default function KanbasNavigation() {
       <Link to="/Kanbas/Dashboard" id="wd-dashboard-link"
         className="list-group-item text-center border-0
                    bg-white text-danger">
-        <AiOutlineDashboard className="fs-1 text-danger" /><br />
+        <LiaBookSolid className="fs-1 text-danger" /><br />
         Dashboard 
       </Link>
         
